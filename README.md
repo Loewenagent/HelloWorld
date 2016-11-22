@@ -1,2 +1,2 @@
 # HelloWorld
-Hello World
+Ein einfacher "Hello World"-Code.
