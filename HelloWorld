@@ -1,7 +1,10 @@
+/*Erstellt die Klasse "HelloWorld"
 public class HelloWorld
 {
+    /*Main-Methode, die das Programm startet
     public static void main (String[] args)
     {
+        /*Gibt "Hello World auf der Konsole aus
         System.out.println("Hello World")
     }
 }
