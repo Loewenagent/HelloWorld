@@ -1,0 +1,11 @@
+import javax.swing.JFrame;
+
+public class Fenster
+{
+  public static void main (String[] args)
+  {
+    JFrame Fenster = new JFrame("Fenster");
+    Fenster.setSize(1000,700);
+    Fenster.setVisible(true);
+  }
+}
