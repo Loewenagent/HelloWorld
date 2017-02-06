@@ -1,13 +1,84 @@
-import javax.swing.JFrame;
-import javax.swing.JLabel;
+//Sogar mit Kommentaren für kleine Anfänger-Pener, damit die auch was verstehen!!!
 
+//Import-Anweisungen von schon vorgefertigten Javaklassen
+import java.awt.Color;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.JTabbedPane;
+
+//Erstellen der Klasse "Fenster"
 public class Fenster
 {
-  public static void main (String[] args)
-  {
-    JFrame Fenster = new JFrame("Fenster");
-    Fenster.setSize(1000,700);
-    Fenster.add(new JLabel("Hello World"));
-    Fenster.setVisible(true);
-  }
+    //Main-Methode
+    public static void main(String[] args)
+    {
+        //Erstellen des Fensters und Setzen der Größe
+        JFrame fenster = new JFrame("Fenster");
+        fenster.setSize(1000,600);
+        
+        //Erstellen der Panels, in denen dann später "Hello World" in vielen verschiedenen Sprachen angezeigt wird
+        JPanel panelInfo = new JPanel();
+        JPanel panelEnglish = new JPanel();
+        JPanel panelGerman = new JPanel();
+        JPanel panelFrench = new JPanel();
+        JPanel panelJapanese = new JPanel();
+        JPanel panelChinese = new JPanel();
+        JPanel panelTurkish = new JPanel();
+        JPanel panelSpanish = new JPanel();
+        JPanel panelIcelandic = new JPanel();
+        JPanel panelDutch = new JPanel();
+        
+        //Bearbeiten der Panels (Farbe setzten und was dann da so drine steht)
+        panelInfo.setBackground(Color.gray);
+        panelInfo.add(new JLabel("This program will show you >HelloWorld< in many different langauges! WOW! Isn't that very THOOOOOL?!?"));
+        
+        panelEnglish.setBackground(Color.green);
+        panelEnglish.add(new JLabel("Hello World!"));
+        
+        panelGerman.setBackground(Color.green);
+        panelGerman.add(new JLabel("Hallo Welt!"));
+        
+        panelFrench.setBackground(Color.green);
+        panelFrench.add(new JLabel("Bonjour tout le monde!"));
+        
+        panelJapanese.setBackground(Color.green);
+        panelJapanese.add(new JLabel("Kon'nichiwa sekai!"));
+        
+        panelChinese.setBackground(Color.green);
+        panelChinese.add(new JLabel("Nǐ hǎo shìjiè!"));
+        
+        panelTurkish.setBackground(Color.green);
+        panelTurkish.add(new JLabel("Merhaba dünya!"));
+        
+        panelSpanish.setBackground(Color.green);
+        panelSpanish.add(new JLabel("Hola mundo!"));
+        
+        panelIcelandic.setBackground(Color.green);
+        panelIcelandic.add(new JLabel("Halló heimur!"));
+        
+        panelDutch.setBackground(Color.green);
+        panelDutch.add(new JLabel("Hallo wereld!"));
+        
+        //Erstellen des TabbedPanes, in denen die ganzen Panels enthalten sind
+        JTabbedPane pane = new JTabbedPane(JTabbedPane.LEFT,JTabbedPane.SCROLL_TAB_LAYOUT);
+        
+        //Hinzufügen der Panels zum TabbedPane
+        pane.addTab(">>>>>Info<<<<<",panelInfo);
+        pane.addTab("English",panelEnglish);
+        pane.addTab("German",panelGerman);
+        pane.addTab("French",panelFrench);
+        pane.addTab("Japanese",panelJapanese);
+        pane.addTab("Chinese",panelChinese);
+        pane.addTab("Turkish",panelTurkish);
+        pane.addTab("Spanish",panelSpanish);
+        pane.addTab("Icelandic",panelIcelandic);
+        pane.addTab("Dutch",panelDutch);
+        
+        //Hinzufügen des TabbedPane zum Fenster
+        fenster.add(pane);
+        
+        //Sichtbarsetzung des Fensters (weil sonst sieht mans nich und des wär doff)
+        fenster.setVisible(true);
+    }
 }
