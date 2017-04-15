@@ -19,7 +19,6 @@ public class Strings extends JLabel {
 		g.setColor(Color.BLACK);
 		
 		g.drawRect(Var.framewidth / 2 - 34, Var.frameheight / 3 - 10, 69, 20);
-		g.drawString(Var.text, Var.framewidth / 2 - 31, Var.frameheight / 3 + 5);
-		
+		g.drawString(Var.text, Var.framewidth / 2 - 31, Var.frameheight / 3 + 5);		
 	}
 }
