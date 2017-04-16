@@ -1,5 +1,3 @@
-package loewenagent.helloworld;
-
 import javax.swing.JFrame;
 import loewenagent.helloworld.Strings;
 import loewenagent.helloworld.Var;
