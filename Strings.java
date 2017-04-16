@@ -1,5 +1,3 @@
-package loewenagent.helloworld;
-
 import java.awt.*;
 import javax.swing.JLabel;
 import loewenagent.helloworld.Var;
