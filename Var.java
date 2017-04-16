@@ -1,5 +1,3 @@
-package loewenagent.helloworld;
-
 import javax.swing.JFrame;
 
 public class Var {
