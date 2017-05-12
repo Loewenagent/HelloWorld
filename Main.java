@@ -7,7 +7,6 @@ public class Main {
 		new Background();
 		new Buttons();
 		new ActionHandler();
-		new Strings();
 
 	}
 
