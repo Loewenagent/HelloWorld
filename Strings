@@ -1,5 +1,3 @@
-package loewenagent.helloworld;
-
 public class Strings {
 
 	public void textidcheck() {
