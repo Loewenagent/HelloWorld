@@ -6,7 +6,7 @@ public class Buttons {
 
 		// Der Button, in dem "Hello World" angezeigt wird
 		Var.btnHelloWorld.setBounds(Var.framewidth / 2 - 50,
-				Var.frameheight / 3, 100, 50);
+				Var.frameheight / 3, 150, 50);
 
 		// Die Button, über die man die Sprache von "Hello World" einstellen
 		// kann
