@@ -9,6 +9,6 @@ public class Var {
 	static JButton btnHelloWorld = new JButton();
 	static JButton btn[] = new JButton[9];
 
-	static String text = "Hello World";
+	static String text;
 
 }
