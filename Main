@@ -6,6 +6,11 @@ public class Main {
 
 		new GUI();
 		new Var();
-		new String();
+		new Background();
+		new Buttons();
+		new ActionHandler();
+		new Strings();
+
 	}
+
 }
