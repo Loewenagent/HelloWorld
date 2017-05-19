@@ -1,6 +1,5 @@
 import java.awt.*;
 import javax.swing.JLabel;
-import loewenagent.helloworld.Var;
 
 public class Background extends JLabel {
 
