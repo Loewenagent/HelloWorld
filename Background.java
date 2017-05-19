@@ -14,7 +14,7 @@ public class Background extends JLabel {
 		g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
 				RenderingHints.VALUE_ANTIALIAS_ON);
 
-		g.setColor(Color.CYAN);
+		g.setColor(Color.GREEN);
 
 		g.fillRect(0, 0, Var.framewidth, Var.frameheight);
 	}
