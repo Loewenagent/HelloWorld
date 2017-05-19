@@ -1,9 +1,6 @@
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-import loewenagent.helloworld.Background;
-import loewenagent.helloworld.Var;
-
 public class GUI {
 
 	public GUI() {
